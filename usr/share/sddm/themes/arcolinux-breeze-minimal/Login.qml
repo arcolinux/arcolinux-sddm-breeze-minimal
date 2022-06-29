@@ -100,9 +100,10 @@ SessionManagementScreen {
     PlasmaComponents.Button {
         id: loginButton
         Layout.fillWidth: true
-
         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
         onClicked: startLogin();
+        Keys.onEnterPressed: clicked()
+        Keys.onReturnPressed: clicked()
     }
 
 }
