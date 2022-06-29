@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=arcolinux-breeze-minimal
+Description=Breeze Theme by a.key with user icons disabled
+Author=Erik Dubois
+Copyright=erik.dubois@gmail.com
+License=Free
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=plasma-devel@kde.org
+Theme-Id=arcolinux-breeze-minimal
+Theme-API=2.0
